@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port-folio-website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="header">
+         <img src="kandalkarlogo.jpeg" alt="">
+         <ul>
+            <li><a href="#home" class="menu" onclick="click()">Home</a></li>
+            <li><a href="#about" class="menu"onclick="click()">About</a></li>
+            <li><a href="#services" class="menu"onclick="click()">Services</a></li>
+            <li><a href="#project" class="menu" onclick="click()">Project</a></li>
+            <li><a href="#contact" class="menu"onclick="click()">Contact</a></li>
+            <div class="open"><i class="fa-solid fa-bars" class="open" onclick="openmenu()"></i></div>
+            <div class="close"><i class="fa-solid fa-xmark" class="close" onclick="closemenu()"></i></div>
+         </ul>
+     </div>
+     
+<!-------------------Home--------------------->
+     <div class="home" id="home">
+        <div class="home-text">
+            <h3>Web/App developer</h3>
+            <h2>Hi, I am <span>Rohan</span><br>kandalkar from India</h2>
+        </div>
+     </div>
+<!-------------------About--------------------->
+    <div class="about" id="about">
+        <div class="img">
+            <img src="aboutphoto.jpeg" alt="">
+        </div>
+        <div class="info">
+            <div class="container">
+              <h1 class="title">About-Me</h1>
+              <p class="description">Hello, I'm Rohan Kandalkar a skilled web-developer, <br>
+                  with a passion for creating responsive web-Applications.
+                <br> Let's build the web together!
+              </p>
+              <div class="section">
+                  <div class="anc">
+                    <ul>
+                      <li><h5 href="" class="tab-links active-link" onclick="opentab('skill')">Skills</h5></li>
+                      <li><h5 href="" class="tab-links" onclick="opentab('experience')">Experience</h5></li>
+                      <li><h5 href="" class="tab-links" onclick="opentab('education')">Education</h5></li>
+                    </ul>  
+                   </div>
+                   <div class=" tab-content active-tab" id="skill">
+                      <h4>Frontend-Developer</h4>
+                      <p>Frontend-Developer in HTML, CSS and JavaScript, <br>Framework - Bootstrap, Library - React</p>
+                      <h4>Backend-developer</h4>
+                      <p>Backend-developer in Nodejs,Mongodb,SQL</p>
+                      <h4>Problem-Solver</h4>
+                      <p>Complate DSA in java Language</p>
+                   </div>
+
+                   <div class="tab-content" id="experience">
+                    <h4>Frontend-Developer</h4>
+                    <p>One Year Experience With<br> Framework - Bootstrap, Library - React</p>
+                    <h4>Backend-developer</h4>
+                    <p>One year Experience with Nodejs,Mongodb,SQL</p>
+                    <h4>Problem-Solver</h4>
+                    <p>Two Year Experience of java Language</p>
+                 </div>
+
+                 <div class="tab-content" id="education">
+                    <h4>BCA</h4>
+                    <p>Bacheler of Computer Application. <br>CGPA : 7.5</p>
+                    <h4>HSC</h4>
+                    <p>Higher Secondery Certificate. <br>Percentage ; 55%</p>
+                    <h4>SSC</h4>
+                    <p>Secondery School Certificate. <br>Percentage : 87.20%</p>
+                 </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------Services--------------------->
+    <div class="services" id="services">
+      <div>
+        <h1 class="title">My Services</h1>
+       </div>
+      <div class="container">
+         
+
+           <div class="service-list">
+             <i class="fa-solid fa-file-code"></i>
+             <h2>Web-developer</h2>
+             <p>I am a Web-developer, <br>
+                in MERN stack.
+                Responsive<br> web developer.
+                </p>
+           </div>
+           <div class="service-list">
+            <i class="fa-solid fa-code"></i>
+             <h2>Problem-Solver</h2>
+             <p>I am also a Problem Solver, <br>
+                I was complated DSA in Java <br>
+                Programming Language</p>
+           </div>
+           <div class="service-list">
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App-developer</h2>
+            <p>I am App Developer, <br>
+               React Native App Developer  </p>
+           </div>
+       </div>
+    </div>
+    <!-------------------My Project--------------------->
+    <div class="project" id="project">
+      <div>
+        <h1 class="title">My Project</h1>
+      </div>
+      <div class="container">
+        <div class="project-list background-one">
+          <div class="project-name">
+            <h2>Rock-Paper-Scissor</h2>
+            <p>It is a Rock-Paper-Scissor Game <br>
+                create by using pure <br>
+                HTML, CSS and JavaScript</p>
+                <a href="https://codepen.io/Decorative-ROHAN/pen/BaMbJLm"><div class="btn"><i class="fa-solid fa-circle-play"></i></i></div></a>
+          </div>
+        </div>
+        <div class="project-list background-two">
+          <div class="project-name">
+            <h2>Mini-Calculator</h2>
+            <p>It is a Mini Calculator, <br>
+                for Calculations.create by <br>using 
+                HTML, CSS and JavaScript</p>
+                <a href="https://codepen.io/Decorative-ROHAN/pen/bGzExzw"><div class="btn"><i class="fa-solid fa-circle-play"></i></div></a>
+          </div>
+        </div>
+        <div class="project-list background-three">
+          
+            <div class="project-name">
+              <h2>Tic-Tac-Toe</h2>
+              <p>It is a Tic-Tac-Toe Game <br>
+                create by using pure <br>
+                HTML, CSS and JavaScript</p>
+                <a href="https://codepen.io/Decorative-ROHAN/pen/poGGVeB"><div class="btn"><i class="fa-solid fa-circle-play"></i></div></a>
+            </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+    <!----------------Contact-Section------------------>
+
+    <div class="contact" id="contact">
+      <div>
+        <h1 class="title">Contact Me</h1>
+      </div>
+      <div class="container">
+          <div class="contact-info">
+            <p><i class="fa-brands fa-square-whatsapp"></i>+91-9322447360</p>
+            <p><i class="fa-brands fa-twitter"></i></i>@kandalkar_rohan</p>
+            <p><i class="fa-brands fa-linkedin"></i>@kandalkar-rohan</p>
+            <p><i class="fa-solid fa-envelope"></i>kandalkarrohan2020@gmail.com</p>
+            <a href="Rohan's Resume.png" download ><div class="btn2"><h4>Download CV</h4></div></a>
+          </div>
+         
+          
+      </div>
+
+    </div>
+  <script>
+    let tablinks = document.querySelectorAll(".tab-links");
+let tabcontents = document.querySelectorAll(".tab-content");
+
+function opentab(tabname){
+
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>  
+<script>
+  let open = document.querySelector(".open");
+  let close = document.querySelector(".close");
+  let menu = document.getElementsByClassName("menu");
+  
+
+  function openmenu(){
+    close.style.display = "block";
+    open.style.display = "none";
+    for(men of menu){
+      men.style.display ="block";
+      }
+    }
+
+  function closemenu(){
+    
+    open.style.display = "block";
+    open.style.top = "14px"
+    for(men of menu){
+      men.style.display ="none";
+
+    }
+  }
+
+  function click(){
+     for(men of menu){
+      men.style.display="none";
+     }
+     }
+
+</script>
+<script src="app.js"></script>    
+</body>
+</html>
